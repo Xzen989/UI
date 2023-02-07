@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Xzen989 
-vanillauwuz
-/
-LinoriaLib
-Public
-Fork your own copy of vanillauwuz/LinoriaLib
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-LinoriaLib/Library.lua
-@vanillauwuz
-vanillauwuz Create Library.lua
-Latest commit 59f1c43 on Dec 18, 2022
- History
- 1 contributor
-3000 lines (2412 sloc)  93.8 KB
-
 local InputService = game:GetService('UserInputService');
 local TextService = game:GetService('TextService');
 local TweenService = game:GetService('TweenService');
@@ -58,10 +29,10 @@ local Library = {
     HudRegistry = {};
 
     FontColor = Color3.fromRGB(255, 255, 255);
-    MainColor = Color3.fromRGB(20, 20, 20);
-    BackgroundColor = Color3.fromRGB(28, 28, 28);
+    MainColor = Color3.fromRGB(28, 28, 28);
+    BackgroundColor = Color3.fromRGB(20, 20, 20);
     AccentColor = Color3.fromRGB(0, 85, 255);
-    OutlineColor = Color3.fromRGB(60, 60, 60);
+    OutlineColor = Color3.fromRGB(50, 50, 50);
 
     Black = Color3.new(0, 0, 0);
 
@@ -3027,17 +2998,3 @@ function Library:CreateWindow(...)
 end;
 
 return Library
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
