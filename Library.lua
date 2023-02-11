@@ -2181,7 +2181,7 @@ do
     local InnerFrame = Library:Create('Frame', {
         BackgroundColor3 = Color3.new(21, 21, 22);
         BorderSizePixel = 0;
-        Position = UDim2.new(0, 2, 0, 2);
+        Position = UDim2.new(0, 1, 0, 1);
         Size = UDim2.new(1, -2, 1, -2);
         ZIndex = 202;
         Parent = WatermarkInner;
@@ -2206,7 +2206,7 @@ do
     });
 
     local WatermarkLabel = Library:CreateLabel({
-        Position = UDim2.new(0, 10, 0, 0);
+        Position = UDim2.new(0, 20, 0, 0);
         Size = UDim2.new(1, -4, 1, 0);
         TextSize = 14;
         TextXAlignment = Enum.TextXAlignment.Left;
