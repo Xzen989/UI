@@ -29,7 +29,7 @@ local Library = {
     HudRegistry = {};
 
     FontColor = Color3.fromRGB(255, 255, 255);
-    MainColor = Color3.fromRGB(16, 15, 15);
+    MainColor = Color3.fromRGB(21, 21, 22);
     BackgroundColor = Color3.fromRGB(9, 9, 9);
     AccentColor = Color3.fromRGB(6, 123, 184);
     OutlineColor = Color3.fromRGB(32, 31, 31);
@@ -2157,7 +2157,7 @@ do
     });
 
     local WatermarkOuter = Library:Create('Frame', {
-        BorderColor3 = Color3.new(0, 0, 0);
+        BorderColor3 = Color3.new(21, 21, 22);
         Position = UDim2.new(0, 100, 0, -25);
         Size = UDim2.new(0, 213, 0, 20);
         ZIndex = 200;
@@ -2179,9 +2179,9 @@ do
     });
 
     local InnerFrame = Library:Create('Frame', {
-        BackgroundColor3 = Color3.new(1, 1, 1);
+        BackgroundColor3 = Color3.new(21, 21, 22);
         BorderSizePixel = 0;
-        Position = UDim2.new(0, 1, 0, 1);
+        Position = UDim2.new(0, 2, 0, 2);
         Size = UDim2.new(1, -2, 1, -2);
         ZIndex = 202;
         Parent = WatermarkInner;
